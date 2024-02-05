@@ -3,7 +3,7 @@ export const hardSkills = [
     icon: "mdi:language-typescript",
     name: "TypeScript",
     description:
-      "TypeScript é uma extensão do JavaScript que adiciona tipagem estática à linguagem. Ele permite que desenvolvedores identifiquem erros durante o desenvolvimento.",
+      "TypeScript é uma extensão do JavaScript que adiciona tipagem estática à linguagem.",
   },
   {
     icon: "mdi:react",
