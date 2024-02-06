@@ -3,15 +3,16 @@ import { hardSkills } from "~/utils/constants";
 </script>
 
 <template>
-  <section class="window-width mx-auto flex flex-col gap-5 my-10">
-    <h2 id="hard-skills">Habilidades Técnicas</h2>
+  <section class="window-width mx-auto my-10 flex flex-col gap-5">
+    <h2 id="hard-skills" class="text-emerald-500">Habilidades Técnicas</h2>
 
-    <div class="flex w-full justify-center flex-wrap gap-10">
+    <div class="flex w-full flex-wrap justify-center gap-10">
       <span
         v-for="item of hardSkills"
-        class="bg-[#172435] flex flex-col text-white w-full md:w-[300px] h-[250px] rounded-lg p-5 gap-5"
+        :key="item.name"
+        class="flex h-[250px] w-full flex-col gap-5 rounded-lg bg-[#172435] p-5 text-white md:w-[300px]"
       >
-        <Icon :name="item.icon" size="40" class="text-white" />
+        <Icon :name="item.icon" size="40" class="text-emerald-500" />
 
         <b class="text-xl">{{ item.name }}</b>
 

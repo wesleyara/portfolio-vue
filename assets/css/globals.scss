@@ -34,9 +34,9 @@ body {
 }
 
 .btn {
-  @apply bg-emerald-500 text-black rounded-md px-4 py-2 text-lg font-normal flex items-center gap-1 justify-center;
+  @apply flex items-center justify-center gap-1 rounded-md bg-emerald-500 px-4 py-2 text-lg font-normal text-black;
 }
 
 .btn.fill {
-  @apply bg-transparent border border-[#334155] text-white;
+  @apply border border-[#334155] bg-transparent text-white;
 }

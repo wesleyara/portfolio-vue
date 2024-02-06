@@ -18,7 +18,7 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         barlow: ["Barlow", "sans-serif"],
-        dmsans: ["DM Sans", "sans-serif"]
+        dmsans: ["DM Sans", "sans-serif"],
       },
       colors: {
         mirage: {

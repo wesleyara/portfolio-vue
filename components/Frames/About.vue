@@ -1,16 +1,18 @@
 <script setup lang="ts">
+import { formatDate } from "~/utils";
+
 const date = new Date("2022-04-21");
 const dateFormated = formatDate(date);
 </script>
 
 <template>
-  <div class="window-width mx-auto flex flex-col gap-5 my-10">
-    <h2 id="about">Sobre</h2>
+  <div class="window-width mx-auto my-10 flex flex-col gap-5">
+    <h2 id="about" class="text-emerald-500">Sobre</h2>
 
-    <div class="flex gap-5 lg:flex-row flex-col">
+    <div class="flex flex-col gap-5 lg:flex-row">
       <article
         style="flex: 1"
-        class="flex flex-col gap-3 h-[336px] overflow-auto text-justify"
+        class="flex h-[336px] flex-col gap-3 overflow-auto text-justify"
       >
         <span>
           Me chamo Wesley Gomes de Araújo, sou graduado em Licenciatura em

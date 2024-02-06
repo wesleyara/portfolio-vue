@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     families: {
       Barlow: true,
       Inter: true,
-      "DM Sans": true
+      "DM Sans": true,
     },
   },
 });
